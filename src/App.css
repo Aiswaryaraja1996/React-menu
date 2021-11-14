@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   height: 40vmin;
@@ -13,21 +10,49 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  width:30%;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+}
+
+.App div{
+  width:50%;
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.join{
+  background-color:rgb(29,156,205);
+}
+
+.setting{
+  background-color: rgb(116,162,176);
+}
+
+.login{
+  background-color:rgb(246,163,35);
+}
+
+.contact{
+  background-color: rgb(179,41,43);
+}
+
+.search{
+  background-color: rgb(115,166,63);
+}
+.help{
+  background-color: rgb(98,97,162);
+}
+.home{
+  background-color: rgb(236,78,151);
+}
+.download{
+  background-color: rgb(172,143,61);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
